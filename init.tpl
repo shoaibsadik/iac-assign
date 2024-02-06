@@ -55,7 +55,7 @@ sudo systemctl start httpd
 sudo systemctl enable httpd
 
 sudo apt install -y git
-sudo git clone https://github.com/shoaibsadik/iac-assign /var/www/html/
+sudo git clone https://github.com/kodekloudhub/learning-app-ecommerce.git /var/www/html/
 
 sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
 
